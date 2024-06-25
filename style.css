@@ -1,0 +1,166 @@
+*
+{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+html,body{
+width:100%;
+height:100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color: rgb(50, 8, 78);
+    color: white;
+}
+nav>h4{
+    font-weight: 400;
+}
+.logo{
+    margin-left: 5%;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.container{
+    width: 70%;
+    height: 50%;
+    border: 1px solid black;
+    margin-bottom: 60px;
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.2;
+    
+    
+
+}
+.content{
+    padding-left: 20px;
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+    border: 10px solid rgb(50, 8, 78);
+    display: flex;
+    padding: 10px;
+
+}
+.left{
+    width: 70%;
+    height: 100%;
+}
+.up,.middle,.lower{
+    width: 70%;
+    height: 30%;
+}
+.upper,.lower{
+    text-align: start;
+    width: 100%;
+    display: flex;
+   justify-content: start;
+   gap: 30px;
+    /* border: 1px solid black; */
+}
+.head{
+    background-color: rgb(50, 8, 78);
+    color: white;
+}
+
+.head-middle{
+    width: 45%;
+}
+.head-right{
+    width: 20%;
+}
+.lower{
+    gap: 65px;
+}
+.red{
+    margin-left: 75px;
+}
+
+
+.right{
+    width: 35%;
+    height: 100%;
+    border-left: 2px dotted grey ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.down{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+.down>.udher{
+    
+    font-size: 60px;
+
+}
+.foot{
+    font-weight: 600;
+    font-size: 70%;
+}
+.footer-line{
+    font-size: 70%;
+}
+.row{
+    width: 90%;
+    height: 25%;
+    
+}
+.row>h3,.row>p{
+    margin-top: 5px;
+}
+.box-up,.box-down{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+   
+}
+.box-down>p{
+    font-size: 160%;
+    font-weight: 600;
+}
+.departure{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.mi{
+    font-size: 50px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.li>h5,.re>h5{
+    font-size: 20px;
+}
